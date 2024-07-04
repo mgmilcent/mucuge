@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #FDF0DC;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+.imagemprincipal{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.tituloprincipal {
+    align-self: flex-start;
+    font-size: 2em;
+    font-family: "Jolly Lodger", system-ui;
+}
+
+.nav {
+    align-self: flex-end;
+}
+
+.nav .listas {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav .listas .lista {
+    display: inline;
+    transition: 0.3s ease-in-out;
+}
+
+.nav .listas .lista:hover{
+    transform: scale(1.1);
+}
+
+.nav .listas .lista .a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+.titulosecundario {
+    font-size: 2.5em;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "Jolly Lodger", system-ui;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.container .paragrafocontainer{
+    margin-top: 50px;
+    text-align: center;
+    color: #94954A;
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+}
+
+.container .acomodacoes{
+    width: 98.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.container .acomodacoes .imagem{
+    width: 10%;
+    height: 10%;
+}
+
+.confira{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.confira .tituloconfira{
+    margin-top: 30px;
+    text-align: center;
+    color: #000;
+}
+
+.confira .impressoes{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.confira .impressoes .comentario{
+    border: 2px solid #94954A;
+    border-radius: 15px;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.confira .impressoes .comentario .paragrafocomentario{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
